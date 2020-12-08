@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block main %}
+<table class="hosts-table">
+    <thead align="left">
+    <tr>
+        <th>主机名</th>
+        <th>IP</th>
+        <th>Mac地址</th>
+        <th>服务器型号</th>
+        <th>操作系统类型</th>
+        <th>发行商</th>
+        <th>操作系统版本</th>
+        <th>详细信息</th>
+    </tr>
+    </thead>
+    <tbody>
+     {% for server in serverlist %}
+    <tr>
+        <td>{{ server.hostname }}</td>
+        <td>{{ server.IP }}</td>
+        <td>{{ server.MAC }}</td>
+        <td>{{ server.model }}</td>
+        <td>{{ server.os_type }}</td>
+        <td>{{ server.os_distribution }}</td>
+        <td>{{ server.os_release }}</td>
+        <td><a href="#">更多</a> </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock main %}

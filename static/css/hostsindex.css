@@ -1,0 +1,20 @@
+.hosts-table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.hosts-table th,td
+{
+    border: 1px solid gray;
+    text-align: left;
+}
+.hosts-table th
+{
+    height:30px;
+    background-color: #585858;
+    color:white;
+}
+.hosts-table td
+{
+    height:20px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@e453f29c-bacc-45d0-9687-e689e9f0ca44" />
+        <remote-mappings server-id="python@sftp://root@39.101.133.35:22/home/.virtualenvs/djangoenv/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/root/workspace/DjangoProjects/CMDB" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://root@192.168.16.100:22/usr/bin/python3" />
+      </list>
+    </list>
+  </component>
+</project>
